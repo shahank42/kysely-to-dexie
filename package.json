@@ -13,6 +13,7 @@
   },
   "scripts": {
     "build": "bun run build.ts",
+    "test": "bun test --preload ./test/setup.ts",
     "prepublishOnly": "bun run build"
   },
   "files": [
