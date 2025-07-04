@@ -1,11 +1,11 @@
 {
   "name": "kysely-to-dexie",
   "type": "module",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "description": "",
+  "description": "Type-safe Dexie.js instances from your Kysely schema.",
   "exports": {
     "types": "./dist/index.d.ts",
     "import": "./dist/index.js",
@@ -20,16 +20,24 @@
     "dist"
   ],
   "keywords": [
+    "dexie",
+    "kysely",
+    "typescript",
+    "indexeddb",
+    "builder",
+    "factory",
+    "bridge",
+    "codegen",
     "bun"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/wobsoriano/pkg-name#readme",
+  "homepage": "https://github.com/shahank42/kysely-to-dexie#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wobsoriano/pkg-name.git"
+    "url": "git+https://github.com/shahank42/kysely-to-dexie.git"
   },
-  "bugs": "https://github.com/wobsoriano/pkg-name/issues",
-  "author": "Robert Soriano <sorianorobertc@gmail.com>",
+  "bugs": "https://github.com/shahank42/kysely-to-dexie/issues",
+  "author": "Shounak Ghosh <shounakghosh42@gmail.com>",
   "devDependencies": {
     "@types/bun": "^1.1.10",
     "bun-plugin-dts": "^0.3.0",

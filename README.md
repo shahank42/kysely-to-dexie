@@ -1,5 +1,10 @@
 # kysely-to-dexie
 
+[![NPM Version](https://img.shields.io/npm/v/kysely-to-dexie)](https://www.npmjs.com/package/kysely-to-dexie)
+![NPM License](https://img.shields.io/npm/l/kysely-to-dexie)
+![npm bundle size](https://img.shields.io/bundlephobia/min/kysely-to-dexie)
+
+
 **Generate fully type-safe [Dexie.js](https://dexie.org/) instances directly from your [Kysely](https://kysely.dev/) schema.**
 
 This library provides a set of TypeScript types and a lightweight factory function to bridge the gap between your Kysely database schema and your Dexie.js setup. It intelligently infers potential primary keys and helps you resolve ambiguities, ensuring end-to-end type safety from your backend-facing Kysely types to your frontend IndexedDB code.
