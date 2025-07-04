@@ -106,23 +106,6 @@ That's it! `dxdb` is now a fully-typed Dexie instance. You get autocompletion an
 // Now you can use dxdb with full type safety.
 
 // The `Selectable` version of the type is used for records.
-async function addInitialUser() {
-  // Correct: `otherId` is the primary key and must be provided.
-  await dxdb.users.add({
-    id: "uuid-123",
-    otherId: 987,
-    name: "Alice",
-    age: 30,
-  });
-
-  // Type Error: Property 'otherId' is missing.
-  await dxdb.users.add({
-    id: "uuid-456",
-    name: "Bob",
-    age: 40,
-  });
-}
-
 async function getGroceryItem(id: string) {
   // The primary key type for `groceries.get()` is correctly inferred as `string`.
   const item = await dxdb.groceries.get(id);
