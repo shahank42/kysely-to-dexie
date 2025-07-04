@@ -30,7 +30,12 @@
   "bugs": "https://github.com/wobsoriano/pkg-name/issues",
   "author": "Robert Soriano <sorianorobertc@gmail.com>",
   "devDependencies": {
+    "@types/bun": "^1.1.10",
     "bun-plugin-dts": "^0.3.0",
-    "@types/bun": "^1.1.10"
+    "fake-indexeddb": "^6.0.1"
+  },
+  "dependencies": {
+    "dexie": "^4.0.11",
+    "kysely": "^0.28.2"
   }
 }
